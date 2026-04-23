@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Camera } from "lucide-react";
 
-const API = "/api";
+const API = import.meta.env.VITE_API_URL || "/api";
 
 // const getToken = () => localStorage.getItem("token");
 const getToken = () => "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZTk0YjI3NjBlNmU4ZmU2MjI4ZmIyNyIsInVzZXJuYW1lIjoiYWxlamFuZHJvIiwiaWF0IjoxNzc2ODk2ODA3LCJleHAiOjE3Nzc1MDE2MDd9.sItkFeQY2dwwbbcnIgVW-ONwknFocxT3KdqZlgOAnK8"
