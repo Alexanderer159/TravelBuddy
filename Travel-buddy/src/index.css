@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body{
+  background: #e0e0e0
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  height: 6px; 
+  width: 6px;  
+}
+
+.no-scrollbar::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background: #818181; 
+  border-radius: 10px;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #818181; 
+}
+
+/* For Firefox */
+.no-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #818181 transparent;
+}
