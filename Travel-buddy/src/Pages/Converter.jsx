@@ -70,7 +70,7 @@ const Converter = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
-<DollarSign className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 -z-10 pointer-events-none text-neutral-400" size={650}/>
+<DollarSign className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 -z-10 pointer-events-none text-neutral-400" size={650}/>
       {/* Header */}
       <p className="font-serif text-4xl text-center font-normal mb-1">Currency Converter</p>
       <p className="mb-8 text-center text-gray-700">Live rates updated daily, no account needed.</p>

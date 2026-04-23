@@ -33,7 +33,7 @@ const Home = () => {
 <>
   <div className="mx-8 overflow-hidden">
 {/* Hero */}
-<Globe2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 -z-10 pointer-events-none text-neutral-400" size={650}/>
+<Globe2 className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 -z-10 pointer-events-none text-neutral-400" size={650}/>
       <div className="py-14 text-center">
         <span className="inline-block text-sm tracking-widest uppercase border border-gray-400 rounded-full px-4 py-1 mb-6">Your travel companion</span>
         <h1 className="font-serif text-5xl md:text-6xl font-normal leading-tight mb-4">TravelBuddy!</h1>

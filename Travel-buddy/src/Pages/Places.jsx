@@ -130,7 +130,7 @@ const openInMaps = (lat, lon, name) => {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
-<LandPlot className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 -z-10 pointer-events-none text-neutral-400" size={650}/>
+<LandPlot className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 -z-10 pointer-events-none text-neutral-400" size={650}/>
 {/* Header */}
       <p className="font-serif text-4xl font-normal text-center mb-1">Explore Places</p>
       <p className="text-center mb-8">Enter a country and city to find top attractions.</p>

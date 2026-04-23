@@ -120,7 +120,7 @@ const Pics = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
-<Camera className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 -z-10 pointer-events-none text-neutral-400" size={650}/>
+<Camera className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 -z-10 pointer-events-none text-neutral-400" size={650}/>
       {/* Header */}
       <div className="flex items-end justify-between mb-8">
         <p className="font-serif text-4xl font-normal">People's Memories</p>
